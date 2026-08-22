@@ -11,14 +11,12 @@ class Solution(object):
 
             if complement in num_map:
                 return [num_map[complement],i]
-                # print('hello')
             num_map[num] = i
-            # print(num_map[num])
 
            
 
         return []
     
 solution = Solution()
-result = solution.twoSum([3,3], 6)
+result = solution.twoSum([2,23,11,7], 9)
 print(result)  # Output: [0, 1]
