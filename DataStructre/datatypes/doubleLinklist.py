@@ -52,5 +52,22 @@ class DoubleLinkList():
             tmp = tmp.next
         newNode = Node(value)
 
+    def printDLL(self):
+        tmp = self.head
 
+        while tmp.next != None :
+            print(tmp.data, end="<-->")
+            tmp = tmp.next
+        else:
+            print(tmp.data)
+
+
+
+h = DoubleLinkList(10)
+h.addatend(20)
+h.addatend(50)
+h.addatend(5)
+h.addatend(90)
+h.addAtBeg(35)
+h.printDLL()
     

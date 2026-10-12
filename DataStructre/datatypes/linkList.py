@@ -32,7 +32,7 @@ class singlyLinkedList :
             head  = head.next # shift the value of head to next node
         head.next = Node(value) #add node at the end
 
-    def ptintsll(self):
+    def printsll(self):
         tmp= self.head
         while tmp.next != None: # iterate until counter none
             print(tmp.data)
@@ -42,9 +42,9 @@ class singlyLinkedList :
 
 
 
-obj = singlyLinkedList()
+obj = singlyLinkedList(10)
 obj.Addatend(20)
-# obj.Addatend(30)
+obj.Addatend(30)
 # obj.Addatend(40)
 # obj.addatbeg(15)
-obj.ptintsll()
+obj.printsll()

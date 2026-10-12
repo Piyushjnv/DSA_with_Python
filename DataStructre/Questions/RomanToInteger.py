@@ -22,6 +22,6 @@ class Solution(object):
 
 
 sol = Solution()
-re=sol.romanToInt("IIMV")
+re=sol.romanToInt("MMLIX")
 print(re)  # Output: 3
 

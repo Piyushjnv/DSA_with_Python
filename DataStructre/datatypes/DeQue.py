@@ -34,8 +34,8 @@ dque.Addatend(5)
 dque.Addatbeg(3)
 dque.Addatbeg(4)
 dque.Addatbeg(5)
-dque.view()
-dque.deleteatbeg()
+# dque.view()
+# dque.deleteatbeg()
 dque.view()
 
 
