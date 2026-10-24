@@ -22,12 +22,8 @@ class Bi_directed_Graph:
           visited_arr[src] = True
           while True:
            
-            for x in range(len(self.mat[stack[-1]])):
-                if self.mat[src][x]  == 1:
-                    # if visited_arr[x] != True:
-                    #     print(x)
-                    #     visited_arr[x] = Tru
-                    if visited_arr[x] != True:
+            for x in range(self.size):
+                if self.mat[src][x]  == 1 and visited_arr[x] != True:
                         stack.append(x)
                         src = x
                         print(f"->{x}", end="")
@@ -51,9 +47,9 @@ x.add_edge(1,2)
 x.add_edge(2,4)
 x.add_edge(2,5)
 x.add_edge(4,6)
-# x.add_edge(5,6)
-# x.display()
-x.DFS(0)
+x.add_edge(5,6)
+x.display()
+x.DFS(3)
 
 
 
