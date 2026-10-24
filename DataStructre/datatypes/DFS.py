@@ -33,18 +33,14 @@ class Bi_directed_Graph:
                         print(x , end="->")
                         visited_arr[x] = True
                         continue
-                    
             else:
-                
-               
                 x = stack.pop()
                 # print('\npop run ',x)  
                 if len(stack) > 0: 
                     src = stack[-1]    
-
             if len(stack) <= 0:
-                                 break 
-                    # visited_arr[]
+                    break 
+              
        
 x= Bi_directed_Graph(7)
 
