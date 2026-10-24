@@ -27,16 +27,16 @@ class DobleQueue:
             print(i, end="--")
         print(" ")
 
-
-dque = DobleQueue()
-dque.Addatbeg(2)
-dque.Addatend(5)
-dque.Addatbeg(3)
-dque.Addatbeg(4)
-dque.Addatbeg(5)
-# dque.view()
+if __name__ == "__main__" :
+    dque = DobleQueue()
+    dque.Addatbeg(2)
+    dque.Addatend(5)
+    dque.Addatbeg(3)
+    dque.Addatbeg(4)
+    dque.Addatbeg(5)
+    # dque.view()
 # dque.deleteatbeg()
-dque.view()
+    dque.view()
 
 
 
